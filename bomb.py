@@ -4,6 +4,9 @@ os.system("cls")
 
 wire = {"r":None, "g":None, "b":None}
 
+# watch this to understand more
+# https://www.youtube.com/shorts/xLccN8V8hII
+
 def bomb(biscotto):
 
     '''
