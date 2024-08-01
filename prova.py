@@ -1,5 +1,3 @@
-
-
 while True:
     
     print('''\n\n         -per effettuare un\'addizione  premere 1
@@ -11,6 +9,7 @@ while True:
     print ('\nscegli:')
 
     scelta = input ('inserisci il numero:---------')
+
 
     if scelta == '1':
             print ('\nhai scelto addizione')

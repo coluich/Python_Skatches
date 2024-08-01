@@ -30,7 +30,7 @@ def main():
     
     passwords = generate_passwords(length, include_characters)
     
-    default_path = os.path.join(os.getcwd(), "passwords.txt")
+    default_path = os.path.join(os.getcwd(), "passwords_generate.txt")
     save_path = input(f"Inserisci il percorso per il file (predefinito: {default_path}): ").strip()
     if not save_path:
         save_path = default_path
